@@ -26,7 +26,7 @@ import com.jobportel.boot.service.JsonDatabaseService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://charanionlineexam.vercel.app")
 public class ExamResultController {
 
     @Autowired
